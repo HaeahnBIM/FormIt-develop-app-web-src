@@ -210,6 +210,8 @@ function App() {
       ID_PLAN: e.row.col9,
     };
 
+    console.log(baseuri + `project/planDongs`, postData);
+
     //console.log(postData);
 
     try {
